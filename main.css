@@ -84,12 +84,28 @@
    width: 100%;
    height: 300px;
    object-fit: cover;
+   
+ }
+
+ .gallery-item {
+  font-size: small;
+
+  color: #824303;
+  margin: 20px;
+ } 
+
+ .caption {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 140%;
+  line-height: 150%;
  }
  
  /* CTA */
  .cta {
    text-align: center;
    padding: 80px 20px;
+   background-color: #8243032d;
  }
  
  .cta h2 {
@@ -128,4 +144,6 @@
    .hamburger {
      display: block;
    }
+
+ 
  }
