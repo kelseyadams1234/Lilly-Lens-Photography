@@ -1,0 +1,157 @@
+
+body {
+   margin: none;
+   font-family: 'Poppins', sans-serif;
+   background: var(--main-bg);
+   color: var(--text-color);
+   width: 100%;
+ }
+ 
+ /* NAV */
+ nav {
+   display: flex;
+   justify-content: space-between;
+   padding: 20px 40px;
+   background: transparent;
+
+   width: 100%;
+   margin: 0;
+   color: white;
+   background-color: #150e14ef;
+  
+ }
+ 
+ .logo {
+   font-family: 'Playfair Display', serif;
+   font-size: 24px;
+ }
+ 
+ nav a {
+   text-decoration: none;
+   color: white;
+   margin-left: 20px;
+   margin-right: 20px;
+ }
+
+
+/* CTA */
+.cta {
+   text-align: center;
+   padding: 80px 20px;
+   background-color: #8243032d;
+ }
+ 
+ .cta h2 {
+   font-family: 'Playfair Display', serif;
+   font-size: 32px;
+ }
+ 
+ .cta button {
+   background: var(--accent);
+   color: white;
+   background-color: #413b3be8;
+   border: none;
+   padding: 12px 25px;
+   margin-top: 20px;
+   cursor: pointer;
+ }
+ 
+
+ 
+ .hero {
+   height: 100vh;
+   background: url("images/F8497E69-7217-4E93-BF7C-C36831F61787-b8c75b2b-1000.jpeg") ;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   margin-bottom: 50px;
+ }
+ 
+ .overlay {
+   text-align: center;
+   color: rgb(255, 255, 255);
+ }
+ 
+ .overlay h1 {
+   font-family: 'Playfair Display', serif;
+   font-size: 48px;
+   letter-spacing: 2px;
+ }
+ 
+ .overlay p {
+   font-size: 18px;
+   margin-top: 10px;
+ }
+ 
+
+
+
+ .services-page {
+   max-width: 1100px;
+   margin: 100px auto;
+   padding: 0 20px;
+ }
+ 
+ .services-hero {
+   text-align: center;
+   margin-bottom: 60px;
+ }
+ 
+ .services-hero h1 {
+   font-size: 42px;
+   letter-spacing: 4px;
+ }
+ 
+ .services-hero p {
+   color: #666;
+ }
+ 
+ /* MAIN LAYOUT */
+ .service-row {
+   display: flex;
+   align-items: center;
+   gap: 50px;
+   margin-bottom: 80px;
+ }
+ 
+ /* REVERSE EVERY OTHER ONE */
+ .service-row.reverse {
+   flex-direction: row-reverse;
+ }
+ 
+ /* IMAGE */
+ .service-image img {
+   width: 100%;
+   max-width: 500px;
+   border-radius: 6px;
+ }
+ 
+ /* TEXT */
+ .service-text {
+   max-width: 500px;
+ }
+ 
+ .service-text h2 {
+   font-size: 28px;
+   margin-bottom: 10px;
+ }
+ 
+ .service-text p {
+   margin-bottom: 10px;
+   color: #444;
+ }
+ 
+ .price {
+   font-weight: bold;
+   font-size: 20px;
+ }
+ 
+ .details {
+   color: #777;
+   font-size: 14px;
+ }
+
+ body {
+   background-color: #c8c7c092;
+ }

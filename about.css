@@ -1,0 +1,83 @@
+
+ body {
+   margin: none;
+   font-family: 'Poppins', sans-serif;
+   background: var(--main-bg);
+   color: var(--text-color);
+   width: 100%;
+ }
+ 
+ /* NAV */
+ nav {
+   display: flex;
+   justify-content: space-between;
+   padding: 20px 40px;
+   background: transparent;
+
+   width: 100%;
+   margin: 0;
+   color: white;
+   background-color: #3b2d399a;
+  
+ }
+ 
+ .logo {
+   font-family: 'Playfair Display', serif;
+   font-size: 24px;
+ }
+ 
+ nav a {
+   text-decoration: none;
+   color: white;
+   margin-left: 20px;
+   margin-right: 20px;
+ }
+
+
+/* CTA */
+.cta {
+   text-align: center;
+   padding: 80px 20px;
+   background-color: #8243032d;
+ }
+ 
+ .cta h2 {
+   font-family: 'Playfair Display', serif;
+   font-size: 32px;
+ }
+ 
+ .cta button {
+   background: var(--accent);
+   color: white;
+   background-color: #413b3b;
+   border: none;
+   padding: 12px 25px;
+   margin-top: 20px;
+   cursor: pointer;
+ }
+ 
+ .about-page {
+  max-width: 800px;
+  margin: 100px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.about-hero h1 {
+  font-size: 40px;
+  letter-spacing: 4px;
+  margin-bottom: 40px;
+}
+
+.about-content p {
+  font-size: 18px;
+  line-height: 1.8;
+  margin-bottom: 25px;
+  color: #413b3b;
+}
+
+.signature {
+  margin-top: 40px;
+  font-style: italic;
+  font-size: 20px;
+}
