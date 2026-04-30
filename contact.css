@@ -17,7 +17,7 @@ body {
    width: 100%;
    margin: 0;
    color: white;
-   background-color: #150e14ef;
+   background-color: #604f5d51;
   
  }
  
@@ -49,7 +49,7 @@ body {
  .cta button {
    background: var(--accent);
    color: white;
-   background-color: #413b3be8;
+   background-color: #413b3bc9;
    border: none;
    padding: 12px 25px;
    margin-top: 20px;
@@ -60,7 +60,8 @@ body {
  
  .hero {
    height: 100vh;
-   background: url("images/F8497E69-7217-4E93-BF7C-C36831F61787-b8c75b2b-1000.jpeg") ;
+   width: 100%;
+   background: url("images/52D214A8-1698-49E8-A317-EF2038FF2268-19acdeb0-2500.jpeg");
    background-size: cover;     
    background-position: center;   
    background-repeat: no-repeat; 
@@ -68,7 +69,7 @@ body {
    justify-content: center;
    align-items: center;
    width: 100%;
-   margin-bottom: 50px;
+   margin-bottom: 20px ;
  }
  
  .overlay {
@@ -87,73 +88,90 @@ body {
    margin-top: 10px;
  }
  
-
-
-
- .services-page {
-   max-width: 1100px;
-   margin: 100px auto;
-   padding: 0 20px;
+ .contact-page {
+   display: flex;
+   min-height: 100vh;
  }
  
- .services-hero {
-   text-align: center;
-   margin-bottom: 60px;
+ .contact-left {
+   flex: 1;
+   background-color: #111;
  }
  
- .services-hero h1 {
+ .contact-left img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+ }
+ 
+ .contact-right {
+   flex: 1;
+   background-color: #f5f1eb;
+   padding: 80px 60px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+ }
+ 
+ .contact-right h1 {
    font-size: 42px;
    letter-spacing: 4px;
+   margin-bottom: 20px;
  }
  
- .services-hero p {
-   color: #666;
- }
- 
- /* MAIN LAYOUT */
- .service-row {
-   display: flex;
-   align-items: center;
-   gap: 50px;
-   margin-bottom: 80px;
- }
- 
- /* REVERSE EVERY OTHER ONE */
- .service-row.reverse {
-   flex-direction: row-reverse;
- }
- 
- /* IMAGE */
- .service-image img {
-   width: 100%;
-   max-width: 500px;
-   border-radius: 6px;
- }
- 
- /* TEXT */
- .service-text {
-   max-width: 500px;
- }
- 
- .service-text h2 {
-   font-size: 28px;
-   margin-bottom: 10px;
- }
- 
- .service-text p {
-   margin-bottom: 10px;
+ .contact-right p {
+   font-size: 17px;
+   line-height: 1.7;
+   margin-bottom: 35px;
    color: #444;
  }
  
- .price {
-   font-weight: bold;
-   font-size: 20px;
+ .contact-form {
+   display: flex;
+   flex-direction: column;
  }
  
- .details {
-   color: #777;
-   font-size: 14px;
+ .contact-form label {
+   margin-bottom: 6px;
+   font-size: 13px;
+   letter-spacing: 1px;
+   text-transform: uppercase;
  }
+ 
+ .contact-form input,
+ .contact-form select,
+ .contact-form textarea {
+   margin-bottom: 20px;
+   padding: 14px;
+   border: 1px solid #ccc;
+   background-color: white;
+   font-size: 15px;
+ }
+ 
+ .contact-form textarea {
+   min-height: 140px;
+   resize: vertical;
+ }
+ 
+ .contact-form button {
+   padding: 14px;
+   background-color: #111;
+   color: white;
+   border: none;
+   font-size: 14px;
+   letter-spacing: 2px;
+   text-transform: uppercase;
+   cursor: pointer;
+ }
+ 
+ .contact-form button:hover {
+   background-color: #333;
+ }
+
+
+ 
+ 
+ 
 
  body {
    background-color: #c8c7c092;
